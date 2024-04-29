@@ -58,8 +58,10 @@ body {
 
   position: relative;
 }
-.box::-webkit-scrollbar {
-  background-color: transparent;
+.box::-webkit-scrollbar,
+.list::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
 }
 
 .loader {
